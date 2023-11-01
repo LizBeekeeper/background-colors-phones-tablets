@@ -73,10 +73,17 @@ footer {
 
   #column-3 {
     background-color:#82a2be ;
+    width: 100%; /*Set one column to 100% width to fill the space*/
   }
 
   footer {
     background-color: #11d7f1 ;
+  }
+
+  .col-3{
+    width: 50%; /*Change the width to 50% for tablet screen */
+    height: 320px;
+    float: left;
   }
   
 }
@@ -98,10 +105,20 @@ footer {
 
   #column-3 {
     background-color:#99004a ;
+    width: 33.33%;
   }
 
   footer {
     background-color:#4d0025 ;
+  }
+  
+  .col-3 {
+    width: 33.33%; /*change width to 33.33% for desktop screens*/
+    height: 320px;
+    float: left;
+    box-sizing: border-box; /* Include padding and borders in the width calculation */
+    padding: 0px;
+    margin: 0px;
   }
    
 }
